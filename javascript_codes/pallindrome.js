@@ -3,5 +3,7 @@ function isPallindrome(input1){
 	reved = temp.split("").reverse().join("");
 	if(temp === reved){
 		return true;
+	}else{
+		return false
 	}
 }
